@@ -1,0 +1,22 @@
+h1,h2{
+    clor: red;
+    text-align: center;
+}
+para2{
+    color:blue;}
+    p2{
+        color: green;
+    }
+    p3{
+        color: red;
+    }
+    di{
+        color: blue;
+    }
+div.d2{
+    color: voilet;
+}
+styleimage{
+    background-image: url("/Users/mac/Downloads/IMG_20220821_202731_335.jpg");
+    width:300px
+}

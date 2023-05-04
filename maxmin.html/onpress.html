@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!-- The onkeypress event occurs when the user presses a key on the keyboard. -->
+
+<p>on key press event. and on submit</p>
+
+<!-- taking input type as text to get input from user -->
+<!-- using onkey press by guiving name my function() -->
+<input type="text" onkeypress="myFunction()">
+
+<script> <!--using java script to call the fun. to show alert message  -->
+function myFunction() {
+  alert("a key is pressed by you! in the box");
+}
+</script>
+
+<!-- on submit generation -->
+<form action="sp.php" onsubmit="myFunction()">
+  Enter name: <input type="text" name="onkeysp">
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+function myFunction() {
+  alert("form is submitted by you thanks!");
+}
+</script>
+
+</body>
+</html>

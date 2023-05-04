@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body{
+            background-image: url("IMG_20220410_075256_512.jpg");
+        }
+        input[type=text],select{
+            width: 100%;
+            background-color: aqua;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+
+        
+        }
+        input[type=submit]{
+            width: 50%;
+            background-color:blue;
+            color: #ccc;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+        input[type=submit]:hover{
+            background-color: orangered;
+        }
+        
+            
+        
+        
+    </style>
+<head>
+    
+    <title>form</title>
+<body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="myserver.php">
+        <table>
+            <tr>
+            <td><label>First Name</label></td>
+            <td><input type="text"></input></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password"></td></input></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td>
+                <input type="radio" name="Gender" id="Gender">Female</input>
+                <input type="radio" name="Gender" id="Gender">Male</input>
+                <input type="radio" name="Gender" id="Gender">Other</input></td>
+                
+            </tr>
+            <tr>
+                <td><label>Subject</label></td>
+                <td><select>
+                    <option>--select--</option>
+                    <option>English</option>
+                    <option>Science</option>
+                    <option>Maths</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Feedback</label>></label></td>
+                <td><textarea></textarea></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit"></input></td>
+                <td><button onclick="alert('hello world')">close</button></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
