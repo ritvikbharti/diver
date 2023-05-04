@@ -5,3 +5,4 @@ Parallax Scrolling Website made with the help of Vanilla JS
 
 ![Preview]
 # diver
+# diver
